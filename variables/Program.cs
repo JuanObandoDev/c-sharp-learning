@@ -1,7 +1,9 @@
 ﻿// program that calculate the area of a rectangle
-int sideA;
+int sideA; // explicit declaration of the type
 int sideB;
-int result;
+// with var we can declare a variable without specifying the type
+// and the compiler will infer the type based on the value assigned
+var result = 0.0; // implicit declaration of the type
 
 Console.WriteLine("Calculate the area of a rectangle");
 Console.WriteLine("Enter the value of side A");
