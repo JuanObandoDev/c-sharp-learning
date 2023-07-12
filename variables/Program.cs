@@ -22,3 +22,19 @@ double radius = Convert.ToDouble(Console.ReadLine());
 resultCircle = Pi * Math.Pow(radius, 2);
 Console.WriteLine("The area of the circle is: " + resultCircle + "cm2");
 
+// multi declaration of variables
+var (value1, value2, value3) = (1, 2, 3);
+Console.WriteLine(value1);
+Console.WriteLine(value2);
+Console.WriteLine(value3);
+
+// using the discard operator _
+var (_, _, value4) = (1, 2, 3);
+Console.WriteLine(value4);
+
+// using strings
+string name = "John";
+string lastname = "Doe";
+string fullname = $"Hi, this is {name} and my lastname is {lastname}"; // string interpolation
+Console.WriteLine(fullname);
+
